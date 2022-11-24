@@ -27,7 +27,7 @@ bindkey '^[[3~' delete-char
 
 # Starship prompt
 eval "$(starship init zsh)"
-export STARSHIP_CONFIG=/etc/starship.toml
+#export STARSHIP_CONFIG=/etc/starship.toml
 
 # ----------------------------------------------
 
