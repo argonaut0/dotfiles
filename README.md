@@ -16,3 +16,7 @@ Create links:
 Delete links:
 
 `stow -v $package`
+
+Update Submodules:
+
+`git submodule update`
