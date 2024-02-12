@@ -61,7 +61,6 @@ $status\
 $container\
 $shell\
 [│](bold green) $git_branch$git_commit$git_state$git_metrics$git_status$hg_branch\
-$fill\
 $aws$gcloud$azure
 [└─](bold green)$character """
 right_format="""
