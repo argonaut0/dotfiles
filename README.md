@@ -1,7 +1,18 @@
-stow $app
+# Dotfiles
 
-to symlink
+### Dependencies
+- GNU stow
+- git submodules
 
-stow -D $app
+### Usage
+Dry run:
 
-to unlink
+`stow -nv $package`
+
+Create links:
+
+`stow -v $package`
+
+Delete links:
+
+`stow -v $package`
