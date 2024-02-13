@@ -1,0 +1,129 @@
+@import "mocha.css";
+
+* {
+	border: none;
+	border-radius: 10px;
+    font-family: "FiraCode Nerd Font" ;
+	font-weight: 600;
+	font-size: 12px;
+	min-height: 10px;
+}
+
+window#waybar {
+	background: transparent;
+}
+
+window#waybar.hidden {
+	opacity: 0.2;
+}
+
+#window {
+	margin-top: 6px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 10px;
+	transition: none;
+    color: transparent;
+	background: transparent;
+}
+
+#network {
+	margin-top: 6px;
+	margin-left: 8px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 0px;
+	border-radius: 10px;
+	transition: none;
+	color: @base;
+	background: #bd93f9;
+}
+
+#pulseaudio {
+	margin-top: 6px;
+	margin-left: 8px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 0px;
+	border-radius: 10px;
+	transition: none;
+	color: @base;
+	background: @yellow;
+}
+
+#clock {
+	margin-top: 6px;
+	margin-left: 8px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 0px;
+	border-radius: 10px;
+	transition: none;
+	color: @base;
+	background: @green;
+}
+
+#window {
+	background: @lavender;
+	color: @base;
+	min-width: 500px;
+}
+
+#tray {
+	margin-top: 6px;
+	margin-left: 8px;
+	padding-left: 10px;
+	margin-bottom: 0px;
+	padding-right: 10px;
+	border-radius: 10px;
+	transition: none;
+	background: @peach;
+}
+
+#workspaces {
+	margin-top: 6px;
+	margin-left: 8px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-radius: 10px;
+	background: @blue;
+}
+
+#workspaces button {
+	font-size: 16px;
+	color: @base;
+}
+
+#workspaces button.active {
+	background: @peach;
+}
+
+#workspaces button:hover {
+	background: @yellow;
+}
+
+#custom-launcher {
+	font-size: 23px;
+	margin-top: 6px;
+	margin-left: 8px;
+	padding-left: 10px;
+	padding-right: 5px;
+	border-radius: 10px;
+	transition: none;
+    color: @sapphire;
+    background: @overlay0;
+}
+
+#custom-power {
+	font-size: 20px;
+	margin-top: 6px;
+	margin-left: 8px;
+	margin-right: 8px;
+	padding-left: 10px;
+	padding-right: 5px;
+	margin-bottom: 0px;
+	border-radius: 10px;
+	transition: none;
+	color: @base;
+	background: @red;
+}

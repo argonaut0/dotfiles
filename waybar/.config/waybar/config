@@ -1,0 +1,57 @@
+{
+	"layer": "top",
+	"modules-left": ["custom/launcher","hyprland/workspaces", "tray"],
+	"modules-center": ["hyprland/window"],
+	"modules-right": ["pulseaudio","clock", "custom/power"],
+	"hyprland/workspaces": {
+		"all-outputs": false,
+		"warp-on-scroll": false,
+		"persistent-workspaces": {
+			"1": ["DP-2"],
+			"2": ["DP-2"],
+			"3": ["DP-2"],
+			"4": ["DP-2"], 
+			"5": ["DP-2"],
+			"6": ["DP-2"],
+			"7": ["DP-2"],
+			"8": ["HDMI-A-2"],
+			"9": ["HDMI-A-2"],
+			"10": ["HDMI-A-2"]
+		}
+	},
+	"pulseaudio": {
+		"tooltip": false,
+		"scroll-step": 5,
+		"format": "{icon} {volume}%",
+		"format-muted": "{icon} {volume}%",
+		"on-click":"pactl set-sink-mute @DEFAULT_SINK@ toggle",
+		"format-icons": {
+			"default": ["", "", ""]
+		}
+	},
+
+	"network": {
+		"tooltip": false,
+		"format-wifi": "  {essid}",
+		"format-ethernet": ""
+	},
+	"tray":{
+		"icon-size":18,
+		"spacing": 10
+	},
+    "clock": {
+        "format": "{: %I:%M %p   %d/%m/%Y}"
+    },
+    "hyprland/window": {
+        "max-length": 200,
+        "separate-outputs": true
+    },
+    "custom/launcher":{
+        "format": " ",
+        "on-click": "sleep 0.1; ~/.config/rofi/scripts/launcher_t3"
+    },
+    "custom/power":{
+        "format": " ",
+        "on-click": "sleep 0.1; ~/.config/rofi/scripts/powermenu_t1"
+    }
+}

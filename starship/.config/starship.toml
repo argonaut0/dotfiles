@@ -80,7 +80,7 @@ trim_at = "."
 disabled = false
 
 [gcloud]
-format = 'in [$symbol$project]($style) '
+format = 'in [gcp::$project]($style) '
 
 [time]
 disabled = false
