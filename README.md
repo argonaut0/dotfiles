@@ -19,4 +19,4 @@ Delete links:
 
 Update Submodules:
 
-`git submodule update`
+`git submodule update --remote`
