@@ -17,6 +17,10 @@ Delete links:
 
 `stow -v $package`
 
-Update Submodules:
+Update submodule commit:
 
 `git submodule update --remote`
+
+Init submodule (pull files):
+
+`git submodule update --init`
